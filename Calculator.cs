@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xunit;
+
 namespace StringCalculator
 {
-    public class CalculatorTests
+    public class Calculator
     {
-        [Fact]
-        public void EmptyStringReturnsZero()
+        public static int Add(string numbers)
         {
-            Assert.Equal(0, Calculator.Add(""));
+            return 0;
         }
     }
 }
